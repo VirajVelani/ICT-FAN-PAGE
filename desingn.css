@@ -1,0 +1,112 @@
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #002244; /* Dark blue team color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 60px; /* Logo width */
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    background-color: #333; /* Dark background for the nav */
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 40px 20px;
+  }
+  
+  /* News Section Styling */
+  section h2 {
+    font-size: 2.2em;
+    color: #002244;
+    margin-bottom: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  article h3 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  article p {
+    margin-top: 10px;
+  }
+  
+  article a {
+    color: #002244;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stats Section Styling */
+  #stats table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #stats th, #stats td {
+    padding: 10px;
+    text-align: left;
+   
+  
